@@ -52,6 +52,9 @@ name = "programiz"
 
 #  print variables
 
+#  using input() to take user input
+num = input('enter a number:')
+
 # Print
 print(type(a))
 print(married)
@@ -73,3 +76,5 @@ print('It is rainy today')
 print(5)
 print(number)
 print(name)
+print('You entered:',num)
+print('Data type of num:',type(num))
