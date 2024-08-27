@@ -55,6 +55,23 @@ name = "programiz"
 #  using input() to take user input
 num = input('enter a number:')
 
+#  Arithmetic operators
+a = 7
+b = 2
+#  Addition
+
+#  subtraction
+
+#  multiplication
+
+#  division
+
+# floor division
+
+# modulo
+
+# a to the power b
+
 # Print
 print(type(a))
 print(married)
@@ -78,3 +95,10 @@ print(number)
 print(name)
 print('You entered:',num)
 print('Data type of num:',type(num))
+print('Sum:',a+b)
+print('Subtraction:',a-b)
+print('Multiplication:',a*b)
+print('division:',a/b)
+print('floor division:',a//b)
+print('modulo:',a%b)
+print('power:',a**b)
