@@ -31,6 +31,27 @@ l1 = [1, 2, 3]
 # collection tuples
 numbers = (1,2,3)
 
+#  dictionary literal
+alphabets = {'a':'apple', 'b':'ball', 'c':'cat'}
+
+#  set literal
+vowels = {'a', 'e', 'i', 'o', 'u'}
+
+#  Type conversion
+integer_number = 123
+float_number = 1.23
+new_number = integer_number + float_number
+  
+# display new value and resulting data type
+ 
+#  Explicit conversion
+num_string ='12'
+num_integer = 23
+
+#  explicit type conversion
+num_string = int(num_string)
+
+num_sum = num_integer + num_string
 # Print
 print(type(a))
 print(married)
@@ -43,3 +64,7 @@ print(value)
 print(type(value))
 print(l1)
 print(numbers)
+print(alphabets)
+print(vowels)
+print("Value:",new_number)
+print("Data type:",type(new_number))
