@@ -81,6 +81,24 @@ b = 5
 # assign the sum of a and b to a
 a += b      # a = a + b
 
+a = 5
+b = 2
+
+# equal to operator
+
+# not equal to operator
+
+# greater than operator
+
+# less than operator
+
+# greater than or equal to operator
+
+# less than or equal to operator
+
+
+
+
 #print
 
 print(type(a))
@@ -94,6 +112,7 @@ print(value)
 print(type(value))
 print(l1)
 print(numbers)
+print('a <= b =', a <= b)
 print(alphabets)
 print(vowels)
 print("Value:",new_number)
@@ -113,3 +132,8 @@ print('floor division:',a//b)
 print('modulo:',a%b)
 print('power:',a**b)
 print(a)
+print('a == b =', a == b)
+print('a != b =', a != b)
+print('a > b =', a > b)
+print('a < b =', a < b)
+print('a >= b =', a >= b)
