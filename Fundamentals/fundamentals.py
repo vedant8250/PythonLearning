@@ -28,6 +28,9 @@ value= None
 # collection - list
 l1 = [1, 2, 3]
 
+# collection tuples
+numbers = (1,2,3)
+
 # Print
 print(type(a))
 print(married)
@@ -39,3 +42,4 @@ print(some_character)
 print(value)
 print(type(value))
 print(l1)
+print(numbers)
