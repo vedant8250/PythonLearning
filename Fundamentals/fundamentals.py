@@ -42,6 +42,9 @@ integer_number = 123
 float_number = 1.23
 new_number = integer_number + float_number
 
+#  print with end whitespace
+
+
 # Print
 print(type(a))
 print(married)
@@ -50,13 +53,5 @@ print(age)
 print(type(name))
 print(complex_num)
 print(some_character)
-print(value)
-print(type(value))
-print(l1)
-print(numbers)
-print(alphabets)
-print(vowels)
-print("Value:",new_number)
-print("Data type:",type(new_number))
-print("Good morning")
-print("It is rainy today")
+print('Good morning!',end=' ')
+print('It is rainy today')
