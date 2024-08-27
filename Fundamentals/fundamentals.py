@@ -44,6 +44,13 @@ new_number = integer_number + float_number
 
 #  print with end whitespace
 
+#   print python variables and literals
+number = -10.6
+name = "programiz"
+
+# print literals
+
+#  print variables
 
 # Print
 print(type(a))
@@ -63,3 +70,6 @@ print("Value:",new_number)
 print("Data type:",type(new_number))
 print('Good Morning!', end= ' ')
 print('It is rainy today')
+print(5)
+print(number)
+print(name)
