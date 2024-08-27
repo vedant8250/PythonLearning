@@ -70,9 +70,19 @@ b = 2
 
 # modulo
 
-# a to the power b
+# a to the power b 
 
-# Print
+# assign 10 to a
+a = 10
+
+# assign 5 to b
+b = 5 
+
+# assign the sum of a and b to a
+a += b      # a = a + b
+
+#print
+
 print(type(a))
 print(married)
 print(name)
@@ -102,3 +112,4 @@ print('division:',a/b)
 print('floor division:',a//b)
 print('modulo:',a%b)
 print('power:',a**b)
+print(a)
