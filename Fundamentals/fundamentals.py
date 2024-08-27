@@ -25,6 +25,9 @@ some_character="S"
 #  none
 value= None
 
+# collection - list
+l1 = [1, 2, 3]
+
 # Print
 print(type(a))
 print(married)
@@ -35,3 +38,4 @@ print(complex_num)
 print(some_character)
 print(value)
 print(type(value))
+print(l1)
