@@ -1,3 +1,4 @@
+#example1
 # number = int(input('Enter a number: '))
 
 # # check if number is greater than 0
@@ -6,6 +7,7 @@
 
 # print('A statement outside the if statement.')
 
+#example2
 # x = 1
 # total = 0
 
@@ -17,6 +19,7 @@
 
 # print("This is always executed.")
 
+#example3
 # number = int(input('Enter a number: '))
 
 # if number > 0:
@@ -26,7 +29,7 @@
 
 # print('This statement always executes')
 
-
+#example4
 # number = 0
 
 # if number > 0:
@@ -42,6 +45,7 @@
 
 # RUn with positive and negative number
 
+#example5
 number = -5
 
 # outer if statement
