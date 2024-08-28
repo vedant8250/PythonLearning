@@ -46,18 +46,18 @@
 # RUn with positive and negative number
 
 #example5
-number = -5
+# number = -5
 
-# outer if statement
-if number >= 0:
-    # inner if statement
-    if number == 0:
-      print('Number is 0')
+# # outer if statement
+# if number >= 0:
+#     # inner if statement
+#     if number == 0:
+#       print('Number is 0')
     
-    # inner else statement
-    else:
-        print('Number is positive')
+#     # inner else statement
+#     else:
+#         print('Number is positive')
 
-# outer else statement
-else:
-    print('Number is negative')
+# # outer else statement
+# else:
+#     print('Number is negative')
