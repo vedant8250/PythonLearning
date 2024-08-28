@@ -61,3 +61,20 @@
 # # outer else statement
 # else:
 #     print('Number is negative')
+
+#  Python For Loop
+#example1
+languages = ['Swift','Python','Go']
+for lang in languages:
+    print(lang)
+
+#example2
+language = 'Python'
+# iterate over each character in language
+for x in language:
+    print(x)
+
+#  for loop with python range()
+# iterate from i = 0 to i = 3
+for i in range(4):
+    print(i)
