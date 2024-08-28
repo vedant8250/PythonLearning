@@ -1,8 +1,11 @@
 # string
 name="vedant magar"
+print(name)
+print(type(name))
 
 # int
 age=21
+print(age)
 
 # boolean operators
 a=34
@@ -12,24 +15,32 @@ print(a>b)
 # boolean 2
 married = True
 # married = False
+print(married)
 
 # float
 a=67.23
+print(a)
+print(type(a))
 
 # complex number
 complex_num = 3 + 4j
+print(complex_num)
 
 # character literals
 some_character="S"
- 
+print(some_character)
+
 #  none
 value= None
+print(value)
 
 # collection - list
 l1 = [1, 2, 3]
+print(l1)
 
 # collection tuples
 numbers = (1,2,3)
+print(numbers)
 
 #  dictionary literal
 alphabets = {'a':'apple', 'b':'ball', 'c':'cat'}
@@ -121,21 +132,3 @@ print('a>=b',a>=b)
 
 # less than or equal to operator
 print('a<=b',a<=b)
-
-
-
-#print
-
-print(type(a))
-print(married)
-print(name)
-print(age)
-print(type(name))
-print(complex_num)
-print(some_character)
-print(value)
-print(type(value))
-print(l1)
-print(numbers)
-print('a <= b =', a <= b)
-
