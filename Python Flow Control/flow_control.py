@@ -117,3 +117,22 @@ for x in language:
 # iterate from i = 0 to i = 3
 for i in range(4):
     print(i)
+
+# Python While Loop
+# example1
+number = 1
+while number <=3:
+    print(number)
+    number = number+1
+
+# Print numbers until the user enters 0
+number = int(input('Enter a number: '))
+
+# iterate until the user enters 0
+while number != 0:
+    print(f'You entered {number}.')
+    number = int(input('Enter a number: '))
+
+print('The end.')
+
+ 
