@@ -135,4 +135,14 @@ while number != 0:
 
 print('The end.')
 
- 
+#Break statement with for loop
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+#Continue statement with for loop
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
