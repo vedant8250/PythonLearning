@@ -53,4 +53,66 @@ print(list1)
 print(random.random())
 
 
-# Python Mathematics
+#Python list
+ages = [19,26,34]
+print(ages)
+
+languages = ['Python','Swift','C++']
+# Access the first element
+print(languages[0])
+# Access the third element
+print(languages[2])
+
+# List slicing
+marks = [45,73,46,98,50,17,37]
+print(marks[2:5])
+
+# Change list items
+colors = ['Red','Black','Green']
+print('Original list:',colors)
+# changing the third item to blue
+colors[2] = 'Blue'
+print('Updated list:',colors)
+
+# Pyhton list length
+cars = ['BMW','Mercedes','Tesla']
+print('Total elements:',len(cars))
+
+#Iterating through the list
+fruits = ['apple','banana','orange']
+for i in fruits:
+    print(i)
+
+# Append method
+fruits = ['apple','banana','orange']
+print('Original list',fruits)
+# using append method
+fruits.append('cherry')
+print('Updated list',fruits)
+
+# Extend method
+fruits = ['apple','banana','cherry']
+cars = ['ford','BMW','volvo']
+fruits.extend(cars)
+print(fruits)
+
+# Insert method
+fruits = ['apple','banana','cherry']
+fruits.insert(1,'orange')
+print(fruits)
+
+# Remove method
+numbers = [2,4,7,9]
+# remove 4 from the list 
+numbers.remove(4)
+print(numbers)
+
+# Pop method
+list = [2,3,4,6,7,8,5]
+list.pop(3)
+print(list)
+
+# Clear method
+fruits = ['apple','banana','orange']
+fruits.clear()
+print(fruits)
