@@ -116,3 +116,28 @@ print(list)
 fruits = ['apple','banana','orange']
 fruits.clear()
 print(fruits)
+
+# Index method
+fruits = ['apple','banana','orange']
+x = fruits.index('orange')
+print(x)
+
+# Count method
+fruits = ['apple','banana','orange','cherry','banana']
+x = fruits.count('banana')
+print(x)
+
+# Sort method
+list = [2,1,3,5,4]
+print(list.sort())
+print(list)
+
+# reverse method
+list = ['a','d','e','c','f','b']
+list.reverse()
+print(list)
+
+# Copy method
+fruits = ['apple','banana','orange']
+x = fruits.copy()
+print(x)
