@@ -141,3 +141,119 @@ print(list)
 fruits = ['apple','banana','orange']
 x = fruits.copy()
 print(x)
+
+
+
+# Python tuples
+numbers=(1,2,-5)
+print(numbers)
+
+# Access items using index
+
+languages = ('python','swift','C++')
+# access the first item
+print(languages[0])
+# access the third item
+print(languages[2])
+
+# Tuple cannot be modified
+cars = ('BMW', 'Tesla', 'Ford', 'Toyota')
+
+# # trying to modify a tuple
+# cars[0] = 'Nissan'    # error
+       
+# print(cars)
+
+# cars = ('BMW','ford','tesla','toyota')
+# print('Total items:', len(cars))
+
+# Iterate through a tuple
+fruits = ('apple','banana','orange')
+#iterate through the tuple       
+for fruit in fruits:
+    print(fruit)
+
+
+# Python strings
+
+# create a string using double quotes
+string1 = "Python Programming"
+print(string1)
+
+# create a string using single quotes
+string2 = 'Python Programming'
+print(string2)    
+
+# Access string character in python
+# Indexing
+greet = 'hello'
+# access 1st index element
+print(greet[2])
+
+# Negative indexing
+greet = 'hello'
+
+# access 4th last element
+print(greet[-4])
+
+# Slicing
+greet = 'Hello'
+
+# access character from 1st index to 3rd index
+print(greet[1:4])  
+
+# Python strings are immutable
+# message = 'Hola Amigos'
+# message[0] = 'H'
+# print(message)
+
+message = 'Hola amigos'
+# assign new string to massage variable
+message = 'Hello friends'
+print(message)
+
+#Python multiline string
+ 
+message ='''
+Never gonna give you up
+Never gonna let you down
+'''
+print(message)
+
+# Python string operations
+
+#1 . Compare two strings
+str1 = "Hello world"
+str2 = "I love swift"
+str3 = "Hello world"
+
+#compare str1 and str2
+print(str1 == str2)
+
+#compare str1 and str3
+print(str1 == str3)
+
+
+# 2 . Join two or more strings
+greet = "Hello "
+name = "Jack"
+
+# using + operator
+result = greet + name
+print(result)
+
+#Iterate through a python string
+greet = "Hello"
+# Iterating through greet string1
+for letter in greet:
+    print(letter)
+
+
+# Python string length
+greet = "Hello"
+# count length of greet string
+print(len(greet))
+
+# String membership test
+print('a'in  'program')
+print('at'not in  'battle')
