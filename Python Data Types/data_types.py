@@ -257,3 +257,74 @@ print(len(greet))
 # String membership test
 print('a'in  'program')
 print('at'not in  'battle')
+
+
+# Methods of Python string
+#  1.Upper method
+message = 'python is fun'
+
+# convert message to uppercase
+print(message.upper())
+
+# 2.Lower method
+message = 'PYTHON IS FUN'
+
+# convert message to lowercase
+print(message.lower())
+
+# 3.Partition method
+string = "Python is fun"
+
+# 'is' separator is found
+print(string.partition('is '))
+
+# 'not' separator is not found
+print(string.partition('not '))
+
+string = "Python is fun, isn't it"
+
+# splits at first occurence of 'is'
+print(string.partition('is')) 
+
+# 4.Replace method
+text = 'bat ball'
+# replace 'ba' with 'ro'
+replaced_text = text.replace('ba','ro')
+print(replaced_text)
+
+# 5.Find method
+message = 'Python is a fun programming language'
+
+# check the index of 'fun'
+print(message.find('fun'))
+
+# 6.rstrip method
+title = 'Python programming   '
+
+#remove trailing whitespace from title
+result = title.rstrip()
+print(result)
+
+# 7.Split method
+text = 'Python is fun'
+
+# split the text from space
+print(text.split())
+
+# 8.Startswith method
+message = 'Python is fun'
+
+# check if the message starts with 'Python'
+print(message.startswith('Python'))
+
+# 9.isnumeric method
+pin = "546"
+# checks if every character of pin is numeric
+print(pin.isnumeric())
+
+# 10.Index method
+text = 'Python is fun'
+
+# find the index of is
+result = text.index('is')
+print(result)
