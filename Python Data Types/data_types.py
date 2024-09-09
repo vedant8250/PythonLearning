@@ -701,3 +701,189 @@ print(A)
 
 
 # Python Dictionary
+# creating a dictionary
+country_capitals = {
+  "Germany": "Berlin", 
+  "Canada": "Ottawa", 
+  "England": "London"
+}
+
+# printing the dictionary
+print(country_capitals)
+
+
+# Access Dictionary Items
+country_capitals = {
+  "Germany": "Berlin", 
+  "Canada": "Ottawa", 
+  "England": "London"
+}
+
+# access the value of keys
+print(country_capitals["Germany"])    
+print(country_capitals["England"])    
+
+
+# Add items to a dictionary
+country_capitals = {
+  "Germany": "Berlin", 
+  "Canada": "Ottawa", 
+}
+
+# add an item with "Italy" as key and "Rome" as its value
+country_capitals["Italy"] = "Rome"
+
+print(country_capitals)
+
+
+# Remove dictionary items
+country_capitals = {
+  "Germany": "Berlin", 
+  "Canada": "Ottawa", 
+}
+
+# delete item having "Germany" key
+del country_capitals["Germany"]
+
+print(country_capitals)
+
+
+# Change dictionary items
+country_capitals = {
+  "Germany": "Berlin", 
+  "Italy": "Naples", 
+  "England": "London"
+}
+
+# change the value of "Italy" key to "Rome"
+country_capitals["Italy"] = "Rome"
+
+print(country_capitals)
+
+
+# Iterate through a dictionary
+country_capitals = {
+  "United States": "Washington D.C.", 
+  "Italy": "Rome" 
+}
+
+# print dictionary keys one by one
+for country in country_capitals:
+    print(country)
+
+print()
+
+# print dictionary values one by one
+for country in country_capitals:
+    capital = country_capitals[country]
+    print(capital)
+
+
+# Find Dictionary Length
+country_capitals = {"England": "London", "Italy": "Rome"}
+
+# get dictionary's length
+print(len(country_capitals))
+
+numbers = {10: "ten", 20: "twenty", 30: "thirty"}
+
+# get dictionary's length
+print(len(numbers))           
+
+countries = {}
+
+# get dictionary's length
+print(len(countries))   
+
+
+# Python dictionary methods
+# 1.pop()
+# create a dictionary
+marks = { 'Physics': 67, 'Chemistry': 72, 'Math': 89 }
+
+element = marks.pop('Chemistry')
+
+print('Popped Marks:', element)
+
+# 2.update()
+marks = {'Physics':67, 'Maths':87}
+internal_marks = {'Practical':48}
+
+marks.update(internal_marks)
+
+
+print(marks)
+
+
+# 3.clear()
+# dictionary
+numbers = {1: "one", 2: "two"}
+
+# removes all the items from the dictionary
+numbers.clear()
+
+print(numbers)
+
+
+# 4.keys()
+numbers = {1: 'one', 2: 'two', 3: 'three'}
+
+# extracts the keys of the dictionary
+dictionaryKeys = numbers.keys()
+
+print(dictionaryKeys)
+
+# 5.values()
+marks = {'Physics':67, 'Maths':87}
+
+print(marks.values())
+
+
+# 6.get()
+scores = {
+    'Physics': 67, 
+    'Maths': 87,
+    'History': 75
+}
+result = scores.get('Physics')
+print(result)    
+
+
+# 7.popitem()
+person = {'name': 'Phill', 'age': 22, 'salary': 3500.0}
+
+# ('salary', 3500.0) is inserted at the last, so it is removed.
+result = person.popitem()
+print('Return Value = ', result)
+print('person = ', person)
+
+# inserting a new element pair
+person['profession'] = 'Plumber'
+
+# now ('profession', 'Plumber') is the latest element
+result = person.popitem()
+print('Return Value = ', result)
+print('person = ', person)
+
+
+# 8.copy()
+original_marks = {'Physics':67, 'Maths':87}
+
+copied_marks = original_marks.copy()
+
+print('Original Marks:', original_marks)
+print('Copied Marks:', copied_marks)
+
+
+
+# Dictionary Membership Test
+file_types = {
+    ".txt": "Text File",
+    ".pdf": "PDF Document",
+    ".jpg": "JPEG Image",
+}
+
+# use of in and not in operators
+print(".pdf" in file_types)       
+print(".mp3" in file_types)      
+print(".mp3" not in file_types)   
